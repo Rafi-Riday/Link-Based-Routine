@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="refresh" content="5">
+		<title>Auto Join</title>
+		<style>
+			html {
+			  background: #252423;
+			  color: #fff;
+			  font-weight: 500;
+			  font-size: 20px;
+			  height: 100%;
+			  width: 100%;
+			  overflow: hidden;
+			}
+			body {
+			  font-family: 'Quicksand';
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
+			  position: absolute;
+			  width: calc(100% - 10px);
+			  height: 100%;
+			  margin: 5px 5px 5px 5px;
+			}
+			body, html {
+				padding: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<center>
+			<div id="detected_period_auto"></div>
+		</center>
+	  <script src="js/teacher_info.js"></script>
+	  <script src="js/update_teacher_info.js"></script>
+	  <script src="js/lead.js"></script>
+	  <script src="js/update_lead.js"></script>
+		<script>
+			if(new Date().getDay() == 0) {
+				if (new Date().getHours() <= 8) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_1_1.name;
+				}
+				else if (new Date().getHours() == 8 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_1_1.name;
+				}
+				else if (new Date().getHours() == 8 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_1_1.name;
+					window.open(period_1_1.link, "_self");
+				}
+				else if (new Date().getHours() == 8 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_1_2.name;
+				}
+				else if (new Date().getHours() == 9 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_1_2.name;
+				}
+				else if (new Date().getHours() == 9 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_1_2.name;
+					window.open(period_1_2.link, "_self");
+				}
+				else if (new Date().getHours() == 9 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_1_3.name;
+				}
+				else if (new Date().getHours() == 10 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_1_3.name;
+				}
+				else if (new Date().getHours() == 10 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_1_3.name;
+					window.open(period_1_3.link, "_self");
+				}
+				else if (new Date().getHours() == 10 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_1_4.name;
+				}
+				else if (new Date().getHours() == 11 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_1_4.name;
+				}
+				else if (new Date().getHours() == 11 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_1_4.name;
+					window.open(period_1_4.link, "_self");
+				}
+				else if (new Date().getHours() == 11 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "All Classes Are Over";
+				}
+				else if (new Date().getHours() >= 11) {
+					document.getElementById("detected_period_auto").innerHTML = "All Classes Are Over";
+				}
+			}
+			else if(new Date().getDay() == 1) {
+				if (new Date().getHours() <= 8) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_2_1.name;
+				}
+				else if (new Date().getHours() == 8 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_2_1.name;
+				}
+				else if (new Date().getHours() == 8 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_2_1.name;
+					window.open(period_2_1.link, "_self");
+				}
+				else if (new Date().getHours() == 8 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_2_2.name;
+				}
+				else if (new Date().getHours() == 9 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_2_2.name;
+				}
+				else if (new Date().getHours() == 9 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_2_2.name;
+					window.open(period_2_2.link, "_self");
+				}
+				else if (new Date().getHours() == 9 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_2_3.name;
+				}
+				else if (new Date().getHours() == 10 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_2_3.name;
+				}
+				else if (new Date().getHours() == 10 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_2_3.name;
+					window.open(period_2_3.link, "_self");
+				}
+				else if (new Date().getHours() == 10 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_2_4.name;
+				}
+				else if (new Date().getHours() == 11 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_2_4.name;
+				}
+				else if (new Date().getHours() == 11 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_2_4.name;
+					window.open(period_2_4.link, "_self");
+				}
+				else if (new Date().getHours() == 11 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "All Classes Are Over";
+				}
+				else if (new Date().getHours() >= 11) {
+					document.getElementById("detected_period_auto").innerHTML = "All Classes Are Over";
+				}
+			}
+			else if(new Date().getDay() == 2) {
+				if (new Date().getHours() <= 8) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_3_1.name;
+				}
+				else if (new Date().getHours() == 8 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_3_1.name;
+				}
+				else if (new Date().getHours() == 8 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_3_1.name;
+					window.open(period_3_1.link, "_self");
+				}
+				else if (new Date().getHours() == 8 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_3_2.name;
+				}
+				else if (new Date().getHours() == 9 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_3_2.name;
+				}
+				else if (new Date().getHours() == 9 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_3_2.name;
+					window.open(period_3_2.link, "_self");
+				}
+				else if (new Date().getHours() == 9 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_3_3.name;
+				}
+				else if (new Date().getHours() == 10 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_3_3.name;
+				}
+				else if (new Date().getHours() == 10 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_3_3.name;
+					window.open(period_3_3.link, "_self");
+				}
+				else if (new Date().getHours() == 10 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_3_4.name;
+				}
+				else if (new Date().getHours() == 11 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_3_4.name;
+				}
+				else if (new Date().getHours() == 11 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_3_4.name;
+					window.open(period_3_4.link, "_self");
+				}
+				else if (new Date().getHours() == 11 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "All Classes Are Over";
+				}
+				else if (new Date().getHours() >= 11) {
+					document.getElementById("detected_period_auto").innerHTML = "All Classes Are Over";
+				}
+			}
+			else if(new Date().getDay() == 3) {
+				if (new Date().getHours() <= 8) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_4_1.name;
+				}
+				else if (new Date().getHours() == 8 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_4_1.name;
+				}
+				else if (new Date().getHours() == 8 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_4_1.name;
+					window.open(period_4_1.link, "_self");
+				}
+				else if (new Date().getHours() == 8 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_4_2.name;
+				}
+				else if (new Date().getHours() == 9 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_4_2.name;
+				}
+				else if (new Date().getHours() == 9 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_4_2.name;
+					window.open(period_4_2.link, "_self");
+				}
+				else if (new Date().getHours() == 9 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_4_3.name;
+				}
+				else if (new Date().getHours() == 10 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_4_3.name;
+				}
+				else if (new Date().getHours() == 10 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_4_3.name;
+					window.open(period_4_3.link, "_self");
+				}
+				else if (new Date().getHours() == 10 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_4_4.name;
+				}
+				else if (new Date().getHours() == 11 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_4_4.name;
+				}
+				else if (new Date().getHours() == 11 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_4_4.name;
+					window.open(period_4_4.link, "_self");
+				}
+				else if (new Date().getHours() == 11 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "All Classes Are Over";
+				}
+				else if (new Date().getHours() >= 11) {
+					document.getElementById("detected_period_auto").innerHTML = "All Classes Are Over";
+				}
+			}
+			else if(new Date().getDay() == 4) {
+				if (new Date().getHours() <= 8) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_5_1.name;
+				}
+				else if (new Date().getHours() == 8 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_5_1.name;
+				}
+				else if (new Date().getHours() == 8 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_5_1.name;
+					window.open(period_5_1.link, "_self");
+				}
+				else if (new Date().getHours() == 8 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_5_2.name;
+				}
+				else if (new Date().getHours() == 9 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_5_2.name;
+				}
+				else if (new Date().getHours() == 9 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_5_2.name;
+					window.open(period_5_2.link, "_self");
+				}
+				else if (new Date().getHours() == 9 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_5_3.name;
+				}
+				else if (new Date().getHours() == 10 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_5_3.name;
+				}
+				else if (new Date().getHours() == 10 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_5_3.name;
+					window.open(period_5_3.link, "_self");
+				}
+				else if (new Date().getHours() == 10 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_5_4.name;
+				}
+				else if (new Date().getHours() == 11 && new Date().getMinutes() >= 0 && new Date().getMinutes() <= 14) {
+					document.getElementById("detected_period_auto").innerHTML = "Next Class : " + period_5_4.name;
+				}
+				else if (new Date().getHours() == 11 && new Date().getMinutes() >= 15 && new Date().getMinutes() <= 55) {
+					document.getElementById("detected_period_auto").innerHTML = "Running Class : " + period_5_4.name;
+					window.open(period_5_4.link, "_self");
+				}
+				else if (new Date().getHours() == 11 && new Date().getMinutes() >= 56 && new Date().getMinutes() <= 59) {
+					document.getElementById("detected_period_auto").innerHTML = "All Classes Are Over";
+				}
+				else if (new Date().getHours() >= 11) {
+					document.getElementById("detected_period_auto").innerHTML = "All Classes Are Over";
+				}
+			}
+			else {
+				document.getElementById("detected_period_auto").innerHTML = "Waiting For Next Meeting";
+			}
+		</script>
+	</body>
+</html>
