@@ -17,3 +17,8 @@
 ![4.png](/img/4.png)
 ## Click the icon on the left to copy the link and share
 ![5.png](/img/5.png)
+
+## Live Preview
+* [Sample](http://rhr.rf.gd/ccpcis/project/routine/ccpc/ccpc.12.sci.b/)
+## Download for Android
+* [Sample app (An official college app, install for educational perpose only, please dont mess up with it!)](https://drive.google.com/file/d/175GXgV04KYzqhFdQymRhSWGOAKHJexnm/view?usp=sharing)
