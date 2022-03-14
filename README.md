@@ -9,7 +9,11 @@
 
 ## Index
 ![1.png](/img/1.png)
-![1.png](/img/2.png)
-![1.png](/img/3.png)
-![1.png](/img/4.png)
-![1.png](/img/5.png)
+## Collapsed
+![2.png](/img/2.png)
+## Responsive design
+![3.png](/img/3.png)
+## Automatic Join via Auto Join Button at the end of the routine
+![4.png](/img/4.png)
+## Click the icon on the left to copy the link and share
+![5.png](/img/5.png)
