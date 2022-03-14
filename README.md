@@ -5,7 +5,7 @@
 * Just select the proper section or join automatically by clicking the button at the end of the routine.
 * You can share link buy copying by clicking the copy icon.
 * Anumations and clicking effects are included (Anime.js and Mo.js).
-* Lastly, a simple and lighweight HTML, CSS and JavaScript based routine.
+* Lastly, a simple and lighweight HTML, CSS and JavaScript Object Oriented Programming based routine.
 
 ## Index
 ![1.png](/img/1.png)
