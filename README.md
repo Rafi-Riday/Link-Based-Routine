@@ -19,6 +19,6 @@
 ![5.png](/img/5.png)
 
 ## Live Preview
-* [Sample](http://rhr.rf.gd/ccpcis/project/routine/ccpc/ccpc.12.sci.b/)
+* [Sample](https://rafi-riday.github.io/Link-Based-Routine/index.html)
 ## Download for Android
 * [Sample app (An official college app, install for educational perpose only, please dont mess up with it!)](https://drive.google.com/file/d/175GXgV04KYzqhFdQymRhSWGOAKHJexnm/view?usp=sharing)
