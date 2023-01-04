@@ -1,4 +1,4 @@
-## Link-Based-Routine
+## Link-Based-Routine, Link and Time Manager for Online Classes
 * Zoom/Google meet's Link based routine/schedule which will help to navigate online regular meeting (such as: regular online class).
 * It will help you to attend classes regularly, your live class and next classes will be highlighted.
 * You will join the meeting automatically, no need to type or save pmi numbers, passwords, links or anything!
