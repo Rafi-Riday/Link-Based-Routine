@@ -23,4 +23,4 @@
 ## Download for Android
 * [Sample app (An official college app, install for educational perpose only, please dont mess up with it!)](https://drive.google.com/file/d/175GXgV04KYzqhFdQymRhSWGOAKHJexnm/view?usp=sharing)
 
-#### I know the routine is fancy and laggy, cause I was learning some JS frameworks, I was new in JS, Its a fancy website, too fancy design, but was being used during corona as we used to do online classes, and trust me it helped a lot! So, this solved the Zoom app online class video link management, class time management. It helped me a lot.
+#### I know the routine is fancy and laggy, cause I was learning some JS frameworks, I was new in JS, Its a fancy website, too fancy design, but was being used during corona as we used to do online classes, and trust me it helped a lot! This solved the Zoom app online class video link management, class time management. It helped us a lot. My all classmates knew me 😉
