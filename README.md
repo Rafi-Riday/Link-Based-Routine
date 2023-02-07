@@ -21,6 +21,6 @@
 ## Live Preview
 * [Sample](https://rafi-riday.github.io/Link-Based-Routine/index.html)
 ## Download for Android
-* [Sample app (An official college app, install for educational perpose only, please dont mess up with it!)](https://drive.google.com/file/d/175GXgV04KYzqhFdQymRhSWGOAKHJexnm/view?usp=sharing)
+* [Sample app (A college app, install for educational perpose only, please dont mess up with it!)](https://drive.google.com/file/d/175GXgV04KYzqhFdQymRhSWGOAKHJexnm/view?usp=sharing)
 
 #### I know the routine is fancy and laggy, cause I was learning some JS frameworks, I was new in JS, Its a fancy website, too fancy design, but was being used during corona as we used to do online classes, and trust me it helped a lot! This solved the Zoom app online class video link management, class time management. It helped us a lot. From then my all classmates knew me for this idea that solved a lot of problems joining the online class 😉
