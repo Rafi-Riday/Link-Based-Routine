@@ -1,3 +1,5 @@
+### This project contains shitty boilerplaty codes. I was not a web developer. I was a complete beginner....
+
 ## Link-Based-Routine, Link and Time Manager for Online Classes
 * Zoom/Google meet's Link based routine/schedule which will help to navigate online regular meeting (such as: regular online class).
 * It will help you to attend classes regularly, your live class and next classes will be highlighted.
